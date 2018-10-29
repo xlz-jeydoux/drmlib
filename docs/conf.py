@@ -24,11 +24,14 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 if read_the_docs_build:
 
-    subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
+    #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
     subprocess.call('pip install breathe', shell=True)
+    subprocess.call('mkdir build && cd build && cmake -DDOC=ON .. && make && cd ..  ', shell=True)  
+    #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)  
+    subprocess.call('doxygen build/doc/Doxyfile', shell=True) 
     
 breathe_projects = {
-    "drmlib_doc":"xml/"
+    "drmlib":"xml/"
     }
 
 
@@ -45,7 +48,7 @@ pygments_style = 'default'
 
 html_theme = 'sphinx_rtd_theme'
 
-html_favicon = 'images/favicon.ico'
+html_favicon = '_static/favicon.ico'
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
