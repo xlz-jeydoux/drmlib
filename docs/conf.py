@@ -26,15 +26,24 @@ if read_the_docs_build:
 
     #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
     subprocess.call('pip install breathe', shell=True)
-    subprocess.call('pip install cmake', shell=True)
-    subprocess.call('sh -c \"$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)\" ', shell=True)
-    subprocess.call('brew install libjsoncpp', shell=True)
-    subprocess.call('sudo apt-get  --assume-yes install libjsoncpp-dev', shell=True)
-    subprocess.call('sudo apt-get  --assume-yes install libcurl4-openssl-dev', shell=True)
-    subprocess.call('sudo apt-get  --assume-yes install unifdef', shell=True)
-    subprocess.call('cd .. && mkdir build && cd build && cmake -DDOC=ON .. && make && cd ..  ', shell=True)  
-    #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)  
+    subprocess.call('doxygen doxygen.cfg', shell=True)  
     subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
+    
+
+    ##subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
+    #subprocess.call('pip install breathe', shell=True)
+    #subprocess.call('pip install cmake', shell=True)
+    #subprocess.call('sh -c \"$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)\" ', shell=True)
+    #subprocess.call('brew install libjsoncpp', shell=True)
+    #subprocess.call('sudo apt-get  --assume-yes install libjsoncpp-dev', shell=True)
+    #subprocess.call('sudo apt-get  --assume-yes install libcurl4-openssl-dev', shell=True)
+    #subprocess.call('sudo apt-get  --assume-yes install unifdef', shell=True)
+    #subprocess.call('cd .. && mkdir build && cd build && cmake -DDOC=ON .. && make && cd ..  ', shell=True)  
+    ##subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)  
+    #subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
+    
+    
+    
     
 breathe_projects = {
     "drmlib":"xml/"
