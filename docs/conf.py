@@ -27,6 +27,7 @@ if read_the_docs_build:
     #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
     subprocess.call('pip install breathe', shell=True)
     subprocess.call('pip install cmake', shell=True)
+    subprocess.call('brew install libjsoncpp', shell=True)
     subprocess.call('sudo apt-get  --assume-yes install libjsoncpp-dev', shell=True)
     subprocess.call('sudo apt-get  --assume-yes install libcurl4-openssl-dev', shell=True)
     subprocess.call('sudo apt-get  --assume-yes install unifdef', shell=True)
