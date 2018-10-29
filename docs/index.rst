@@ -1,4 +1,10 @@
-.. doxygenclass:: Accelize::DRMLib::MeteringSessionManager
-   :project: drmlib_doc
-   :members:
+.. doxygenfile:: session_manager.h
+   :project: drmlib
    
+  
+.. doxygenfile:: error.h
+   :project: drmlib
+  
+
+.. doxygenfile:: version.h
+   :project: drmlib

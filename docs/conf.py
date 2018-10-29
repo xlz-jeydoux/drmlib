@@ -11,7 +11,7 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = "drmlib_doc"
+project = "drmlib"
 copyright = "Accelize"
 author = "jeydoux@accelize.com"
 version = "v1.2"
