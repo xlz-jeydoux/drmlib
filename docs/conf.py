@@ -27,9 +27,12 @@ if read_the_docs_build:
     #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
     subprocess.call('pip install breathe', shell=True)
     subprocess.call('pip install cmake', shell=True)
+    subprocess.call('sudo apt-get install libjsoncpp-dev', shell=True)
+    subprocess.call('sudo apt-get install libcurl4-openssl-dev', shell=True)
+    subprocess.call('sudo apt-get install unifdef', shell=True)
     subprocess.call('cd .. && mkdir build && cd build && cmake -DDOC=ON .. && make && cd ..  ', shell=True)  
     #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)  
-    subprocess.call('doxygen build/doc/Doxyfile', shell=True) 
+    subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
     
 breathe_projects = {
     "drmlib":"xml/"
