@@ -6,5 +6,5 @@
    :project: drmlib
   
 
-.. doxygenfile:: version.h.in
+.. doxygenfile:: version.h*
    :project: drmlib
