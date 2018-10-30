@@ -29,7 +29,7 @@ if read_the_docs_build:
     #subprocess.call('cd ../doxygen; doxygen doxygen.cfg', shell=True)
     subprocess.call('pip install breathe', shell=True)
     subprocess.call('doxygen doxygen.cfg', shell=True)  
-    #subprocess.call('cp ../include/accelize/drm/version.h.in ../include/accelize/drm/version.h', shell=True) 
+    subprocess.call('cp ../include/accelize/drm/version.h.in ../include/accelize/drm/version.h', shell=True) 
     subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
     
 
