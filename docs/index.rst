@@ -1,13 +1,4 @@
-.. doxygenfile:: session_manager.h
-   :project: drmlib
-   
-  
-.. doxygenfile:: error.h
-   :project: drmlib
-  
+.. toctree::
+   :maxdepth: 5
 
-.. .. doxygenfile:: version.h
-..    :project: drmlib
-   
-   
-   
+   test
