@@ -54,7 +54,12 @@ breathe_projects = {
     }
 
 
-extensions = [ "breathe" ]
+extensions = [ 'sphinx.ext.autodoc',
+              'sphinx.ext.doctest',
+              'sphinx.ext.intersphinx',
+              'sphinx.ext.todo',
+              'sphinx.ext.coverage',
+              'breathe']
 
 source_suffix = '.rst'
 master_doc = 'index'
@@ -69,11 +74,9 @@ html_theme = 'sphinx_rtd_theme'
 
 html_favicon = '_static/favicon.ico'
 
-
 html_context = {
     'css_files': ['_static/accelize.css'],  # Overwrite them style
 }
-
 
 html_logo = '_static/logo.png'
 
