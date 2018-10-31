@@ -37,13 +37,15 @@ session_manager.h file
    :project: drmlib
   
 
-
 error.h file
 ````````````
   
 .. doxygenfile:: drm/error.h
    :project: drmlib
   
+
+version.h file
+````````````
 
 .. .. doxygenfile:: drm/version.h
 ..    :project: drmlib
@@ -61,7 +63,6 @@ common.h file
 .. doxygenfile:: drmc/common.h
    :project: drmlib
   
-
    
 errorcode.h file
 ````````````````
@@ -70,14 +71,11 @@ errorcode.h file
    :project: drmlib
   
 
-   
 metering.h file
-``````````````` 
+````````````````
   
 .. doxygenfile:: drmc/metering.h
    :project: drmlib
-
-
 
    
 version.h file
