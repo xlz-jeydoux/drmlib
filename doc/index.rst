@@ -6,6 +6,14 @@ C++ API
 -------
 
 
+class
+~~~~~
+
+.. doxygenclass:: MeteringSessionManager
+   :project: drmlib
+  
+
+
 session_manager.h file
 ~~~~~~~~~~~~~~~~~~~~~~
 
