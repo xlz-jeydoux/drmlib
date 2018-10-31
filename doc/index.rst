@@ -5,7 +5,7 @@ DRM SDK API
 session_manager.h file
 ----------------------
 
-.. doxygenfile:: session_manager.h
+.. doxygenfile:: drm/session_manager.h
    :project: drmlib
   
 
@@ -13,12 +13,39 @@ session_manager.h file
 error.h file
 ------------ 
   
-.. doxygenfile:: error.h
+.. doxygenfile:: drm/error.h
    :project: drmlib
   
 
-.. .. doxygenfile:: version.h
+.. .. doxygenfile:: drm/version.h
 ..    :project: drmlib
    
    
+common.h file
+------------ 
+  
+.. doxygenfile:: drmc/error.h
+   :project: drmlib
+  
+
    
+errorcode.h file
+------------ 
+  
+.. doxygenfile:: drmc/errorcode.h
+   :project: drmlib
+  
+
+   
+metering.h file
+------------ 
+  
+.. doxygenfile:: drmc/metering.h
+   :project: drmlib
+
+   
+version.h file
+------------ 
+  
+.. doxygenfile:: drmc/version.h
+   :project: drmlib
