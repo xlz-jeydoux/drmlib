@@ -2,8 +2,12 @@ DRM SDK API
 ===========
 
 
+C++ API
+-------
+
+
 session_manager.h file
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. doxygenfile:: drm/session_manager.h
    :project: drmlib
@@ -11,7 +15,7 @@ session_manager.h file
 
 
 error.h file
------------- 
+~~~~~~~~~~~~
   
 .. doxygenfile:: drm/error.h
    :project: drmlib
@@ -21,16 +25,19 @@ error.h file
 ..    :project: drmlib
    
    
+C API
+-----
+
 common.h file
------------- 
+~~~~~~~~~~~~~
   
-.. doxygenfile:: drmc/error.h
+.. doxygenfile:: drmc/common.h
    :project: drmlib
   
 
    
 errorcode.h file
------------- 
+~~~~~~~~~~~~~~~~
   
 .. doxygenfile:: drmc/errorcode.h
    :project: drmlib
@@ -38,14 +45,15 @@ errorcode.h file
 
    
 metering.h file
------------- 
+~~~~~~~~~~~~~~~ 
   
 .. doxygenfile:: drmc/metering.h
    :project: drmlib
 
    
 version.h file
------------- 
+~~~~~~~~~~~~~~ 
   
 .. doxygenfile:: drmc/version.h
    :project: drmlib
+   
