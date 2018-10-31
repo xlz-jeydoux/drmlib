@@ -27,7 +27,7 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 if read_the_docs_build:
 
     subprocess.call('pip install breathe', shell=True)
-    subprocess.call('doxygen doxygen.cfg', shell=True)  
+    subprocess.call('doxygen Doxyfile.in', shell=True)  
     #subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
     
    
