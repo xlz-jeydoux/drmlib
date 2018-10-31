@@ -70,6 +70,15 @@ html_theme = 'sphinx_rtd_theme'
 html_favicon = '_static/favicon.ico'
 
 
+html_context = {
+    'css_files': ['_static/accelize.css'],  # Overwrite them style
+}
+
+
+html_logo = '_static/logo.png'
+
+html_show_sourcelink = False
+
 # -- Options for HTMLHelp output ---------------------------------------------
 
 htmlhelp_basename = '%sdoc' % project
