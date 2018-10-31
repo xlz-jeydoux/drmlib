@@ -9,7 +9,7 @@ C++ API
 class
 ~~~~~
 
-.. doxygenclass:: MeteringSessionManager
+.. doxygenclass:: Accelize::DRMLib::MeteringSessionManager
    :project: drmlib
   
 
