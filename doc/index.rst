@@ -6,16 +6,27 @@ C++ API
 -------
 
 
-class
-~~~~~
+Namespaces
+~~~~~~~~~~
+
+.. doxygennamespace:: Accelize::DRMLib
+   :project: drmlib
+   
+   
+
+Classes
+~~~~~~~
 
 .. doxygenclass:: Accelize::DRMLib::MeteringSessionManager
    :project: drmlib
   
 
+.. doxygenclass:: Accelize::DRMLib::Exception
+   :project: drmlib
+   
 
 session_manager.h file
-~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````
 
 .. doxygenfile:: drm/session_manager.h
    :project: drmlib
@@ -23,7 +34,7 @@ session_manager.h file
 
 
 error.h file
-~~~~~~~~~~~~
+````````````
   
 .. doxygenfile:: drm/error.h
    :project: drmlib
@@ -36,8 +47,11 @@ error.h file
 C API
 -----
 
+Files
+~~~~~
+
 common.h file
-~~~~~~~~~~~~~
+`````````````
   
 .. doxygenfile:: drmc/common.h
    :project: drmlib
@@ -45,7 +59,7 @@ common.h file
 
    
 errorcode.h file
-~~~~~~~~~~~~~~~~
+````````````````
   
 .. doxygenfile:: drmc/errorcode.h
    :project: drmlib
@@ -53,14 +67,14 @@ errorcode.h file
 
    
 metering.h file
-~~~~~~~~~~~~~~~ 
+``````````````` 
   
 .. doxygenfile:: drmc/metering.h
    :project: drmlib
 
    
 version.h file
-~~~~~~~~~~~~~~ 
+``````````````
   
 .. doxygenfile:: drmc/version.h
    :project: drmlib
