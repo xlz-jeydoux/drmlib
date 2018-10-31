@@ -28,7 +28,7 @@ if read_the_docs_build:
 
     subprocess.call('pip install breathe', shell=True)
     subprocess.call('doxygen doxygen.cfg', shell=True)  
-    subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
+    #subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
     
    
 breathe_projects = {
