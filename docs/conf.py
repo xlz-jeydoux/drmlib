@@ -46,6 +46,7 @@ pygments_style = 'default'
 
 # -- Options for HTML output -------------------------------------------------
 
+
 html_theme = 'sphinx_rtd_theme'
 
 html_favicon = '_static/favicon.ico'
@@ -55,6 +56,8 @@ html_context = {
 }
 
 html_logo = '_static/logo.png'
+
+html_show_sourcelink = False
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
