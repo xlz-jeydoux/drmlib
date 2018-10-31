@@ -1,35 +1,16 @@
-
-.wy-nav-content {
-    background-image: url("background.png"), url("footer.png");
-    background-position: top, bottom;
-    background-repeat: no-repeat;
-    background-size: contain, contain;
-}
-
 .wy-side-nav-search {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
+    background-color: #ea7222
 }
 
-/*
-.footer {
-    min-height: 40px;
-    max-height: 40px;
-    wdith: 100%;
-    background-color: white;
-    background-image: url("footer.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
+.wy-side-nav-search input[type="text"] {
+    border-color: #ea7222
 }
-*/
-/*
-footer {
-    background-color: white;
-    background-image: url("footer.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-} */
+
+.wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a {
+    color: #ea7222
+}
+
