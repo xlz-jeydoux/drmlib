@@ -11,7 +11,7 @@ Namespaces
 
 .. doxygennamespace:: Accelize::DRMLib
    :project: drmlib
-   
+   :undoc-members:
    
 
 Classes
