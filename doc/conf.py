@@ -28,8 +28,6 @@ if read_the_docs_build:
 
     subprocess.call('pip install breathe', shell=True)
     subprocess.call('doxygen Doxyfile.in', shell=True)  
-    #subprocess.call('doxygen ../build/doc/Doxyfile', shell=True) 
-    
    
 breathe_projects = {
     "drmlib":"xml/"
@@ -65,7 +63,6 @@ html_show_sphinx = False
 
 htmlhelp_basename = '%sdoc' % project
 
-
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {}
@@ -73,7 +70,7 @@ latex_documents = [(
     master_doc, '%s.tex' % project, '%s Documentation' % project, author,
     'manual')]
 
-
+latex_logo = '_static/logo.png'
 # -- Options for manual page output ------------------------------------------
 
 man_pages = [(
