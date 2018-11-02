@@ -1,51 +1,33 @@
 C API
 =====
 
-a
-
 Files
 -----
 
-a
-
-common.h file
-~~~~~~~~~~~~~
+common.h
+~~~~~~~~
   
-a
-
 .. doxygenfile:: drmc/common.h
    :project: drmlib
   
-a
    
-errorcode.h file
-~~~~~~~~~~~~~~~~
-  
-a
+errorcode.h
+~~~~~~~~~~~
 
 .. doxygenfile:: drmc/errorcode.h
    :project: drmlib
   
 
-a
-
-metering.h file
-~~~~~~~~~~~~~~~
-
-a
+metering.h
+~~~~~~~~~~
 
 .. doxygenfile:: drmc/metering.h
    :project: drmlib
 
 
-a
-
-version.h file
-~~~~~~~~~~~~~~
-
-a
+version.h
+~~~~~~~~~
 
 .. doxygenfile:: drmc/version.h
    :project: drmlib
 
-a

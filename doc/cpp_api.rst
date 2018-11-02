@@ -1,12 +1,8 @@
 C++ API
 =======
 
-a
-
 Namespaces
 ----------
-
-a
 
 .. doxygennamespace:: Accelize::DRMLib
    :project: drmlib
@@ -18,47 +14,33 @@ Classes
 
 .. doxygenclass:: Accelize::DRMLib::MeteringSessionManager
    :project: drmlib
-  
-a
 
 
 .. doxygenclass:: Accelize::DRMLib::Exception
    :project: drmlib
    
-a
 
 Files
 -----
 
-a
-
-
-session_manager.h file
-~~~~~~~~~~~~~~~~~~~~~~
-
-a
+session_manager.h
+~~~~~~~~~~~~~~~~~
 
 .. doxygenfile:: drm/session_manager.h
    :project: drmlib
   
 
-a
 
-error.h file
-~~~~~~~~~~~~
+error.h
+~~~~~~~
   
-a
-
 .. doxygenfile:: drm/error.h
    :project: drmlib
   
-a
 
-
-version.h file
-~~~~~~~~~~~~~~
+version.h
+~~~~~~~~~
 
 .. .. doxygenfile:: drm/version.h
 ..    :project: drmlib
    
-a
