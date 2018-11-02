@@ -15,8 +15,8 @@ import sys
 project = "drmlib"
 copyright = "Accelize"
 author = "jeydoux@accelize.com"
-version = "v1.3"
-release = "v1.3"
+version = "v1.1"
+release = "v1.1"
 
 
 sys.path.append( "/home/me/docproj/ext/breathe/" )
