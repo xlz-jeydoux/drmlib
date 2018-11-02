@@ -15,8 +15,8 @@ import sys
 project = "drmlib"
 copyright = "Accelize"
 author = "jeydoux@accelize.com"
-version = "v1.2"
-release = "v1.2"
+version = "v1.3"
+release = "v1.3"
 
 
 sys.path.append( "/home/me/docproj/ext/breathe/" )
@@ -53,6 +53,9 @@ html_favicon = '_static/favicon.ico'
 
 html_context = {
     'css_files': ['_static/accelize.css'],  # Overwrite them style
+    "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
+    "last_updated": True,
+    "commit": False, 
 }
 
 html_logo = '_static/logo.png'
