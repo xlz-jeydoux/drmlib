@@ -59,6 +59,8 @@ html_logo = '_static/logo.png'
 
 html_show_sourcelink = False
 
+html_show_sphinx = False
+
 # -- Options for HTMLHelp output ---------------------------------------------
 
 htmlhelp_basename = '%sdoc' % project
