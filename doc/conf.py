@@ -53,11 +53,6 @@ html_favicon = '_static/favicon.ico'
 
 html_context = {
     'css_files': ['_static/accelize.css'],  # Overwrite them style
-    "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
-    "last_updated": True,
-    "github_url": False,
-    "gitlab_url": False,
-    "commit": False, 
 }
 
 html_logo = '_static/logo.png'
